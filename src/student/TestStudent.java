@@ -11,7 +11,6 @@ public class TestStudent {
         st1.setData(null, 20);
         st2.setData("Ghena", 30);
 
-        System.out.println(st1.name);
         System.out.println(averageInts(st1.getAge(), st2.getAge()));
     }
 }
