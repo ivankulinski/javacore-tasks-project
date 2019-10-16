@@ -5,7 +5,7 @@ public class Student {
     private int age;
 
     public void setData(String name, int age){
-        if (name.isEmpty() || name == null){
+        if ( name == null || name.isEmpty()){
             System.out.println("Please, provide the name.");
             this.name = "NO NAME";
         }
